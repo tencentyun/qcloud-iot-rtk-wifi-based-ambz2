@@ -49,7 +49,7 @@ $ make clean && make
 [官网入门](https://www.amebaiot.com/cn/amazon-freertos-getting-started/)
 
 ### 4. WiFi配网说明
-工程里面包含了WiFi配网及设备绑定的代码，关于softAP配网协议及接口使用请看 [WiFi设备softAP配网](https://github.com/tencentyun/qcloud-iot-rtk-wifi-based-ambz2/blob/master/doc/softAP 配网开发.md)，关于simpleConfig配网协议及接口使用请看 [WiFi设备simpleConfig配网](https://github.com/tencentyun/qcloud-iot-rtk-wifi-based-ambz2/blob/master/doc/simpleConfig 配网开发.md)。
+工程里面包含了WiFi配网及设备绑定的代码，关于softAP配网协议及接口使用请看 [WiFi设备softAP配网](https://github.com/tencentyun/qcloud-iot-rtk-wifi-based-ambz2/blob/master/doc/softAP%20%E9%85%8D%E7%BD%91%E5%BC%80%E5%8F%91.md)，关于simpleConfig配网协议及接口使用请看 [WiFi设备simpleConfig配网](https://github.com/tencentyun/qcloud-iot-rtk-wifi-based-ambz2/blob/master/doc/simpleConfig%20%E9%85%8D%E7%BD%91%E5%BC%80%E5%8F%91.md)。
 
 demo 入口 `qcloud_demo_task` 示例了`softAP`和`simpleConfig`两种配网方式的选择，`WIFI_PROV_SOFT_AP_ENABLE`配置是否使能softAP配网，`WIFI_PROV_SIMPLE_CONFIG_ENABLE`配置是否使能simpleConfig。
 
